@@ -51,15 +51,12 @@
         </form>
       </div>
     </nav>
-
-    <main role="main" class="container">
-
-      <div class="starter-template">
-        <h1>Hello World</h1>
-        <p class="lead">Utilizando o Twitter bootstrap</p>
-      </div>
-
-    </main><!-- /.container -->
+    {% block  %}
+      <main role="main" class="container">
+        <div class="row">
+        </div>
+      </main>
+    {% endblock  %}
 
     <!-- Principal JavaScript do Bootstrap
     ================================================== -->
