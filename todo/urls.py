@@ -20,6 +20,6 @@ from todo.tarefas import urls as tarefas_urls
 
 urlpatterns = [
     url(r'^$', views.home), #view de teste
-    url(r'^tarefas/', include(tarefas_urls, namespace='tarefas')),
+    url(r'^tarefas/', include(tarefas_urls, namespace='tarefas')), #include com novo caminho
     url(r'^admin/', admin.site.urls),
 ]
