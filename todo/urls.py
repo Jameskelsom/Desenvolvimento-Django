@@ -19,7 +19,7 @@ from todo.core import views
 from todo.tarefas import urls as tarefas_urls
 
 urlpatterns = [
-    url(r'^$', views.home),
+    url(r'^$', views.home), #view de teste
     url(r'^tarefas/', include(tarefas_urls, namespace='tarefas')),
     url(r'^admin/', admin.site.urls),
 ]
