@@ -12,4 +12,4 @@ class TarefaAdmin(admin.ModelAdmin):
 
 
 admin.site.register(Categoria, CategoriaAdmin) #add categoria
-admin.site.register(Tarefa, TarefaAdmin)
+admin.site.register(Tarefa, TarefaAdmin) #add tarefa
