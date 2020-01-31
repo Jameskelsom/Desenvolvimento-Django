@@ -11,5 +11,5 @@ class TarefaAdmin(admin.ModelAdmin):
     pass
 
 
-admin.site.register(Categoria, CategoriaAdmin)
+admin.site.register(Categoria, CategoriaAdmin) #add categoria
 admin.site.register(Tarefa, TarefaAdmin)
